@@ -1,0 +1,12 @@
+# Ignore everything
+*
+
+# Except this gitignore file
+!.gitignore
+
+# Allow wp-content folder
+!wp-content/
+
+# Ignore everything in wp-content except plugins
+wp-content/*
+!wp-content/plugins/
