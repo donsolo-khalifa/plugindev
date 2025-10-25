@@ -10,3 +10,12 @@
 # Ignore everything in wp-content except plugins
 wp-content/*
 !wp-content/plugins/
+
+# Allow all plugin folders and their contents
+!wp-content/plugins/*/
+!wp-content/plugins/**
+
+# for akismet default plugin and php files
+wp-content/plugins/akismet
+wp-content/plugins/hello.php
+wp-content/plugins/index.php
